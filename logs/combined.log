@@ -87,3 +87,55 @@
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:13:26:20 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
 {"ip":"::ffff:127.0.0.1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquisitions-api","userAgent":"HTTPie"}
 {"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:13:26:21 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:18:57:03 +0000] \"GET / HTTP/1.1\" 304 - \"https://studio.firebase.google.com/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:18:57:06 +0000] \"GET / HTTP/1.1\" 304 - \"https://firebase-acquisitionsgit-1775511663417.cluster-czg6tuqjtffiaszlkqfihyc3dq.cloudworkstations.dev/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:18:57:15 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:18:57:25 +0000] \"GET /api/users HTTP/1.1\" 200 352 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Hello from Acquisitions","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:30:52 +0000] \"GET / HTTP/1.1\" 304 - \"https://firebase-acquisitionsgit-1775511663417.cluster-czg6tuqjtffiaszlkqfihyc3dq.cloudworkstations.dev/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:31:06 +0000] \"GET /api/users HTTP/1.1\" 200 352 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:31:12 +0000] \"GET /api/users/1 HTTP/1.1\" 500 1727 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:37:22 +0000] \"GET /api/users/1 HTTP/1.1\" 200 196 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Updating user: 1","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:37:59 +0000] \"PUT /api/users/1 HTTP/1.1\" 401 96 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:38:28 +0000] \"PATCH /api/users/1 HTTP/1.1\" 404 152 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 1","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:38:39 +0000] \"DELETE /api/users/1 HTTP/1.1\" 401 85 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"Getting user by id: 1","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com retrieved successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:38:47 +0000] \"GET /api/users/1 HTTP/1.1\" 200 196 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:48:33 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:48:43 +0000] \"GET /users HTTP/1.1\" 404 144 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:48:52 +0000] \"GET /api/users HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:49:04 +0000] \"GET /api/users/1 HTTP/1.1\" 401 72 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:50:07 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:50:50 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 400 63 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: thiagge@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:51:00 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 116 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: thiagge@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Getting users...","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:52:36 +0000] \"GET /api/users HTTP/1.1\" 200 352 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: thiagge@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Updating user: 1","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com updated successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:54:33 +0000] \"PUT /api/users/1 HTTP/1.1\" 200 194 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: thiagge@gmail.com (user)","service":"acquisitions-api"}
+{"level":"info","message":"Updating user: 1","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:54:49 +0000] \"PUT /api/users/1 HTTP/1.1\" 403 79 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:55:06 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User admin@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: admin@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:55:37 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User authenticated: admin@gmail.com (admin)","service":"acquisitions-api"}
+{"level":"info","message":"Deleting user: 1","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"User thiagge@gmail.com deleted successfully","service":"acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Apr/2026:19:56:23 +0000] \"DELETE /api/users/1 HTTP/1.1\" 200 114 \"-\" \"HTTPie\"","service":"acquisitions-api"}
