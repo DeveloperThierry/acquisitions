@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "imports": {
+    "#src/*":"./src/*",
     "#config/*": "./src/config/*",
     "#controllers/*": "./src/controllers/*",
     "#middleware/*": "./src/middleware/*",
@@ -24,7 +25,8 @@
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio",
     "dev:docker": "sh ./src/scripts/dev.sh",
-    "prod:docker": "sh ./src/scripts/prod.sh"
+    "prod:docker": "sh ./src/scripts/prod.sh",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "keywords": [],
   "author": "",
@@ -48,10 +50,12 @@
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.10.1",
     "prettier": "^3.8.1",
+    "supertest": "^7.2.2",
     "winston": "^3.19.0",
     "zod": "^4.3.6"
   },
   "devDependencies": {
-    "drizzle-kit": "^0.31.10"
+    "drizzle-kit": "^0.31.10",
+    "jest": "^30.3.0"
   }
 }
